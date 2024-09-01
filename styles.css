@@ -1,0 +1,72 @@
+.container {
+    display: grid; /* Define o container como um grid */
+    grid-column-start: 1; /* Inicia na coluna 1 */
+    grid-column-end: 12; /* Termina na coluna 12 */
+    margin: 0%; /* Margem de 0% ao redor do container */
+}
+
+.menu {
+    grid-column-start: 7; /* Inicia na coluna 7 */
+    grid-column-end: 12; /* Termina na coluna 12 */
+    background-color: black; /* Cor de fundo preta */
+    padding: 0%; /* Padding de 0% */
+} 
+
+header { 
+    background-color: black; /* Cor de fundo preta */
+    padding: 0px; /* Padding de 0 pixels */
+} 
+
+body {
+    background-color: papayawhip; /* Cor de fundo papayawhip */
+}
+
+.titulo {
+    color: white; /* Cor do texto branca */
+    text-align: center; /* Alinhamento do texto ao centro */
+    grid-column-start: 1; /* Inicia na coluna 1 */
+    grid-column-end: 6; /* Termina na coluna 6 */
+}
+
+li {
+    float: left; /* Flutua à esquerda */
+    text-decoration: none; /* Sem decoração de texto */
+    padding: 0px 35px; /* Padding de 0 pixels em cima e embaixo, 35 pixels à esquerda e à direita */
+    font-size: 20px; /* Tamanho da fonte de 20 pixels */
+}
+
+ul {
+    list-style-type: none; /* Sem estilo de lista */
+}
+
+a, a:link {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: aqua; /* Cor do texto aqua */
+    font-size: 25px; /* Tamanho da fonte de 25 pixels */
+    font-style: italic; /* Estilo da fonte itálico */
+}
+
+.biografia {
+    text-align: center; /* Alinhamento do texto ao centro */
+    grid-column-start: 1; /* Inicia na coluna 1 */
+    grid-column-end: 12; /* Termina na coluna 12 */
+}
+
+footer {
+    background-color: black; /* Cor de fundo preta */
+    color: aliceblue; /* Cor do texto aliceblue */
+    text-align: center; /* Alinhamento do texto ao centro */
+    font-size: 5%; /* Tamanho da fonte de 5% */
+    position: absolute; /* Posição absoluta */
+    bottom: 0; /* Alinhamento ao fundo */
+    left: 0; /* Alinhamento à esquerda */
+    width: 100%; /* Largura de 100% */
+}
+
+h2 {
+    font-size: 25px; /* Tamanho da fonte de 25 pixels */
+}
+
+p {
+    font-size: 22px; /* Tamanho da fonte de 22 pixels */
+}
